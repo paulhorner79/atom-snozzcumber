@@ -1,7 +1,7 @@
 {
   "name": "atom-snozzcumber",
   "main": "./lib/atom-snozzcumber",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lorem Ipsum for Atom with a Roald Dahl twist.  \"Try it yourself this foulsome snozzcumber!\"",
   "keywords": [
     "Roald Dahl",
