@@ -7,7 +7,7 @@ generator.  But this one uses phrases from Roald Dahl stories.
 
 It's based on the [Snozzcumber Javascript library](https://paulhorner79.github.io/snozzcumber/)
 
-![Fantastic Mr. Fox](https://raw.githubusercontent.com/paulhorner79/atom-snozzcumber/master/bfg.png "The BFG")
+![The BFG](https://raw.githubusercontent.com/paulhorner79/atom-snozzcumber/master/bfg.jpg "The BFG")
 
 ## From the library
 
