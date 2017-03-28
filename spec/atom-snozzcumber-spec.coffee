@@ -1,4 +1,4 @@
-Snozzcumber = require '../lib/snozzcumber'
+Snozzcumber = require '../lib/atom-snozzcumber'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 #
@@ -10,7 +10,7 @@ describe "Snozzcumber", ->
 
     beforeEach ->
         workspaceElement = atom.views.getView(atom.workspace)
-        activationPromise = atom.packages.activatePackage('snozzcumber')
+        activationPromise = atom.packages.activatePackage('atom-snozzcumber')
 
         waitsForPromise ->
             atom.workspace.open('blankfile.txt').then (editor) ->
