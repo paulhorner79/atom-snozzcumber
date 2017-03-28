@@ -1,0 +1,43 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Snozzcumber'
+      'submenu': [
+        {
+          'label': 'Paragraph'
+          'command': 'snozzcumber:paragraph'
+        },
+        {
+            'label': 'Paragraphs'
+            'command': 'snozzcumber:paragraphs'
+        },
+        {
+          'label': 'Phrase'
+          'command': 'snozzcumber:phrase'
+        }
+      ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Snozzcumber'
+      'submenu': [
+        {
+          'label': 'Paragraph'
+          'command': 'snozzcumber:paragraph'
+        },
+        {
+            'label': 'Paragraphs'
+            'command': 'snozzcumber:paragraphs'
+        },
+        {
+          'label': 'Phrase'
+          'command': 'snozzcumber:phrase'
+        }
+      ]
+    ]
+  }
+]
