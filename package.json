@@ -1,19 +1,19 @@
 {
   "name": "snozzcumber",
   "main": "./lib/snozzcumber",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lorem Ipsum for Atom with a Roald Dahl twist.  \"Try it yourself this foulsome snozzcumber!\"",
   "keywords": [
-      "Roald Dahl",
-      "lorem ipsum",
-      "lipsum",
-      "text",
-      "dummy",
-      "generator",
-      "placeholder"
+    "Roald Dahl",
+    "lorem ipsum",
+    "lipsum",
+    "text",
+    "dummy",
+    "generator",
+    "placeholder"
   ],
   "activationCommands": {
-     "atom-workspace": [
+    "atom-workspace": [
       "snozzcumber:paragraph",
       "snozzcumber:paragraphs",
       "snozzcumber:phrase"
@@ -25,7 +25,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-      "snozzcumber": "^0.1"
+    "snozzcumber": "^0.1"
   },
   "bugs": {
     "url": "https://github.com/paulhorner79/atom-snozzcumber/issues"
